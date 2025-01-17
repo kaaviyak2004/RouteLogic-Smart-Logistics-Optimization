@@ -1,0 +1,90 @@
+.contact-us-page {
+   /* background-color: #f9f9f9; */
+   padding: 20px;
+   font-family: Arial, sans-serif;
+   max-width: 600px;
+   margin: 0 auto;
+   border-radius: 8px;
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.contact-us-page h2 {
+   text-align: center;
+   color: #ffffff;
+   margin-bottom: 20px;
+}
+
+.contact-form {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.form-group {
+   margin-bottom: 15px;
+   width: 100%;
+}
+
+.form-group label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.form-group textarea {
+   resize: none;
+   height: 100px;
+}
+
+.error {
+   color: red;
+   font-size: 12px;
+   margin-top: 5px;
+   display: block;
+}
+
+.submit-button {
+   width: 100%;
+   background-color: #007bff;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+   align-self: center;
+}
+
+.submit-button:hover {
+   background-color: #0056b3;
+}
+
+.thank-you-message {
+   text-align: center;
+   color: #333;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.thank-you-message h3 {
+   color: #28a745;
+}
+
+.thank-you-message p {
+   color: #555;
+}
